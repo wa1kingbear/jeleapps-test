@@ -1,0 +1,21 @@
+{
+    "parser": "@typescript-eslint/parser",
+    "extends": [
+        "plugin:react/recommended",
+        "plugin:@typescript-eslint/recommended",
+        "plugin:prettier/recommended"
+    ],
+    "plugins": ["react", "react-hooks", "@typescript-eslint", "prettier"],
+    "rules": {
+        "prettier/prettier": "error",
+        "react-hooks/rules-of-hooks": "error",
+        "react-hooks/exhaustive-deps": "warn",
+        "react/react-in-jsx-scope": "off",
+        "@typescript-eslint/explicit-module-boundary-types": "off"
+    },
+    "settings": {
+        "react": {
+            "version": "detect"
+        }
+    }
+}
