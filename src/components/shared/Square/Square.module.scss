@@ -1,0 +1,13 @@
+@use "@/scss/mixins" as *;
+
+.ctx {
+    height: 500px;
+    width: 500px;
+    background-color: var(--black);
+    margin: auto;
+    @include media-max-width("md") {
+        height: auto;
+        width: 70%;
+        aspect-ratio: 1 / 1;
+    }
+}

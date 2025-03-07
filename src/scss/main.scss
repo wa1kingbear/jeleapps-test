@@ -1,3 +1,16 @@
-@import "normalize";
+@use "./base/normalize";
+@use "./base/colors";
 
-@import "./base/colors";
+html,
+body {
+    display: flex;
+    height: 100%;
+    min-width: 320px;
+    flex-direction: column;
+    scrollbar-gutter: stable;
+}
+#root {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}

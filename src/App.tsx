@@ -1,11 +1,9 @@
-import { Wrapper } from '@/layout';
+import '@/scss/main.scss';
+
+import AppRouter from './routes/AppRouter';
 
 const App = () => {
-    return (
-        <Wrapper>
-            <div></div>
-        </Wrapper>
-    );
+    return <AppRouter />;
 };
 
 export default App;
